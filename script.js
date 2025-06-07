@@ -1,4 +1,3 @@
-// Navbar CSS property in Scroll
 window.addEventListener("scroll", () => {
   const navbar = document.querySelector(".navbar");
   if (window.scrollY > 100) {
@@ -8,13 +7,11 @@ window.addEventListener("scroll", () => {
   }
 });
 
-// Profile section redirecting
 const profileIcon = document.querySelector(".profile-icon");
 profileIcon.addEventListener("click", () => {
   window.location.href = "profile-details.html";
 });
 
-// Movie card
 const movieCard = document.querySelectorAll(".content-card");
 movieCard.forEach((card) => {
   card.addEventListener("mouseEnter", () => {

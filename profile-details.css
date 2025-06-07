@@ -10,7 +10,6 @@
   padding: 40px 20px;
 }
 
-/* Profile header */
 .profile-header {
   display: flex;
   align-items: center;
@@ -62,7 +61,6 @@
     font-size: 14px;
 }
 
-/* Profile Section */
 .profile-section{
     margin-bottom: 50px;
 }
@@ -73,7 +71,6 @@
     color: #e5e5e5;
 }
 
-/* Setting grid */
 .setting-grid{
     display:grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
@@ -116,7 +113,6 @@
     font-size: 14px;
 }
 
-/* Responsiveness */
 @media (max-width: 768px){
     .profile-header{
         flex-direction: column;
